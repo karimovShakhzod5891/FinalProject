@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald ", sans-serif;
+  box-sizing: border-box;
+}
+/*Navigation starts here*/
+
+header .Plogo {
+  position: absolute;
+  width: 81px;
+  height: 16px;
+  left: 100px;
+  top: 49px;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #FFFFFFFF;
+}
+/*Project Link*/
+header .nav__links .class1 {
+  text-decoration: none;
+  list-style: none;
+  position: absolute;
+  width: 8opx;
+  height: 15px;
+  left: 430px;
+  top: 50px;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #FFFFFFFF;
+} /* Project animation start*/
+
+.class1 {
+  position: relative;
+  text-decoration: none;
+  color: #ffffffff;
+}
+.class1::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  transform: scaleX(0);
+}
+.class1:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all, 0.2s ease-in-out 0s;
+}
+/* Project animation end*/
+
+/*About us starts here*/
+
+header .nav__links .class2 {
+  text-decoration: none;
+  list-style: none;
+  position: absolute;
+  width: 81px;
+  height: 16px;
+  left: 590px;
+  top: 49px;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color:: #FFFFFFFF;
+}
+/*About us animation start*/
+
+.class2 {
+  position: relative;
+  text-decoration: none;
+  color: #FFFFFFFF;
+}
+.class2::before {
+  position: absolute;
+  content: "";
+  width: 110%;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  transform: scaleX(0);
+}
+.class2:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all, 0.2s ease-in-out 0s;
+}
+
+/*About us animation end*/
+
+/* Stories starts here*/
+
+header .nav__links .class3 {
+  text-decoration: none;
+  position: absolute;
+  width: 67px;
+  height: 16px;
+  left: 760px;
+  top: 49px;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #FFFFFFFF;
+}
+/*Stories animation start*/
+
+.class3 {
+  position: relative;
+  text-decoration: none;
+  color: #FFFFFFFF;
+}
+.class3::before {
+  position: absolute;
+  content: "";
+  width: 115%;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  transform: scaleX(0);
+}
+.class3:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all, 0.2s ease-in-out 0s;
+}
+
+/*Contact starts here*/
+header .nav__links .class4 {
+  text-decoration: none;
+  position: absolute;
+  width: 73px;
+  height: 16px;
+  left: 910px;
+  top: 49px;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #FFFFFFFF;
+}
+/*Contact animation start*/
+
+.class4 {
+  position: relative;
+  text-decoration: none;
+  color: #FFFFFFFF;
+}
+.class4::before {
+  position: absolute;
+  content: "";
+  width: 105%;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  transform: scaleX(0);
+}
+.class4:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all, 0.2s ease-in-out 0s;
+}
+header .image1 {
+  background-image: url(images/desktop1.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+header .logo {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 30%;
+  left: 49%;
+  margin: auto;
+  display: flex;
+  align-content: center;
+}
+
+header .heading1 {
+  position: absolute;
+  width: 385px;
+  height: 150px;
+  left: 38%;
+  top: 40%;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+
+  text-align: center;
+
+  color: #FFFFFFFF;
+}
+
+header .para1 {
+  position: absolute;
+  width: 600px;
+  height: 50px;
+  right: 28%;
+  top: 510px;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  text-align: center;
+
+  color: #FFFFFFFF;
+  /*Page 2 starts here*/
+}
+section .image2 {
+background-image: url(images/white.png);
+  position: absolute;
+  width: 1440px;
+  height: 800px;
+  left: -1px;
+  top: 800px;
+
+  background: #eeeeee;
+}
+section .heading2 {
+  position: absolute;
+  width: 900px;
+  height: 120px;
+  right: 18%;
+  top: 900px;
+
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 60px;
+  line-height: 60px;
+
+  text-align: center;
+
+  color: black;
+}
+section .headArticle {
+  position: absolute;
+  width: 500px;
+  height: 57px;
+  right: 450px;
+  top: 1060px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: black;
+}
+section .article1 {
+  position: absolute;
+  width: 450px;
+  height: 170px;
+  left: 190px;
+  top: 1190px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+}
+section .article2 {
+  position: absolute;
+  width: 416px;
+  height: 172px;
+  right: 210px;
+  top: 1190px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--article2);
+}
+section article .bgbtn {
+  position: absolute;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-family: monospace;
+  background-color: #39c2d7;
+  font-size: 20px;
+  right: 45%;
+  top: 1450px;
+  cursor: pointer;
+  color: black;
+  background-size: 200%;
+
+}
+
+}
+}
+section .image2 {
+  position: absolute;
+  width: 1440px;
+  height: 800px;
+  left: -1px;
+  top: 800px;
+
+  background: #eeeeee;
+}
+section .heading2 {
+  position: absolute;
+  width: 900px;
+  height: 120px;
+  right: 18%;
+  top: 900px;
+
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 60px;
+  line-height: 60px;
+
+  text-align: center;
+
+  color: var(--article2);
+}
+section .headArticle {
+  position: absolute;
+  width: 500px;
+  height: 57px;
+  right: 450px;
+  top: 1060px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color:black;
+}
+section .article1 {
+  position: absolute;
+  width: 450px;
+  height: 170px;
+  left: 190px;
+  top: 1190px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--article2);
+}
+section .article2 {
+  position: absolute;
+  width: 416px;
+  height: 172px;
+  right: 210px;
+  top: 1190px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--article2);
+}
+section article .btn {
+  position: absolute;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-family: monospace;
+  font-size: 20px;
+  right: 45%;
+  top: 1450px;
+  cursor: pointer;
+  color: black;
+  background-size: 100%;
+  background-color: #39c2d7;
+
+}
+/*Page 2 Ends here*/
+section .image3 {
+  background: rgba(170, 93, 46, 0.3);
+  background-image: url(images/desktop2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 800px;
+  top: 1600px;
+}
+section .learnMore {
+  position: absolute;
+  width: 650px;
+  height: 115px;
+  right: 28%;
+  top: 1700px;
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 68px;
+  line-height: 64px;
+
+  text-align: center;
+
+  color:white;
+}
+section .playBtn {
+background-image: url(images/playDesk.png);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 120px;
+  padding: 10px 25px;
+  font-family: monospace;
+  font-size: 20px;
+  right: 45%;
+  top: 1900px;
+  background-size: 101%;
+
+}
+
+section .article3 {
+  position: absolute;
+  color: whitesmoke;
+  text-align: center;
+  width: 350px;
+  height: 57px;
+  right: 38%;
+  top: 2200px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+footer {
+  background-color: #464547;
+  position: relative;
+  display: flex;
+  width: 1440px;
+  height: 250px;
+  top: 2320px;
+  right: 1px;
+}
+footer .logo {
+  background-image: url(images/logo2.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  left: 8%;
+  top: 45px;
+}
+footer .footProject {
+  position: absolute;
+  width: 95px;
+  height: 15px;
+  left: 200px;
+  top: 75px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+
+}
+footer .address1 {
+  position: absolute;
+  width: 174px;
+  height: 33px;
+  left: 400px;
+  top: 70px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+
+}
+footer .address2 {
+  position: absolute;
+  width: 174px;
+  height: 33px;
+  left: 400px;
+  top: 90px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+
+}
+footer .email {
+  text-decoration: none;
+  list-style: none;
+  position: absolute;
+  width: 190px;
+  height: 15px;
+  left: 400px;
+  top: 150px;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+
+  letter-spacing: 0.2em;
+
+} /* Project animation start*/
+
+.email {
+  position: relative;
+  text-decoration: none;
+  color: #666666;
+}
+.email::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background-color: var(--footer-rgb);
+  visibility: hidden;
+  transform: scaleX(0);
+}
+.email:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all, 0.2s ease-in-out 0s;
+}
+
+footer .address3 {
+  position: absolute;
+  width: 200px;
+  height: 33px;
+  left: 1100px;
+  top: 125px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+}
